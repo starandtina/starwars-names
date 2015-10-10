@@ -27,12 +27,12 @@
   },
   "devDependencies": {
     "chai": "3.3.0",
-    "commitizen": "1.0.5",
-    "cz-conventional-changelog": "1.1.4",
+    "commitizen": "1.0.4",
+    "cz-conventional-changelog": "1.1.0",
     "mocha": "2.3.3",
-    "semantic-release": "4.3.5"
+    "semantic-release": "^4.3.4"
   },
   "czConfig": {
-    "path": "node_modules/cz-conventional-changelog"
+    "path": "node_modules/cz-conventional-changelog/"
   }
 }
