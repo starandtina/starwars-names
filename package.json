@@ -35,17 +35,17 @@
     "babel": "5.8.23",
     "chai": "3.3.0",
     "codecov.io": "0.1.6",
-    "commitizen": "1.0.4",
-    "cz-conventional-changelog": "1.1.0",
+    "commitizen": "2.8.1",
+    "cz-conventional-changelog": "1.1.6",
     "ghooks": "0.3.2",
     "istanbul": "0.3.22",
     "mocha": "2.3.3",
     "semantic-release": "^4.3.4"
   },
-  "czConfig": {
-    "path": "node_modules/cz-conventional-changelog"
-  },
   "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    },
     "ghooks": {
       "pre-commit": "npm run test:single && npm run check-coverage"
     }
